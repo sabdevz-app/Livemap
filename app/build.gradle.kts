@@ -50,7 +50,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.hunt3rXhunt3r"
+                groupId = "com.github.sabdevz-app"
                 artifactId = "Livemap"
                 version = "v1.0.30"
             }
